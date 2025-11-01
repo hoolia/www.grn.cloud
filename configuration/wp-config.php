@@ -112,8 +112,8 @@ define('WP_DEBUG_DISPLAY', false);
 define( 'WP_DEBUG', !!getenv_docker('WORDPRESS_DEBUG', true) );
 
 /** Prevent editing by Admin -> Appearance -> Editor **/
-define('DISALLOW_FILE_EDIT', true);
-define('DISALLOW_FILE_MODS', true);
+define('DISALLOW_FILE_EDIT', false);
+define('DISALLOW_FILE_MODS', false);
 
 /** Prevent WP Schedule System **/
 define('DISABLE_WP_CRON', false);
@@ -122,11 +122,11 @@ define('DISABLE_WP_CRON', false);
 define('CONCATENATE_SCRIPTS', false);
 
 /** Disable auto-update **/
-define('AUTOMATIC_UPDATER_DISABLED', true);
-define('WP_AUTO_UPDATE_CORE', false);
+define('AUTOMATIC_UPDATER_DISABLED', false);
+define('WP_AUTO_UPDATE_CORE', true);
 
 /** Set default theme **/
-define('WP_DEFAULT_THEME', 'twentytwentyfive');
+define('WP_DEFAULT_THEME', 'hostinza');
 
 /** Allow MultiSite domainnames **/
 //define('WP_SITEURL', 'https://' . $_SERVER['HTTP_HOST'] );
