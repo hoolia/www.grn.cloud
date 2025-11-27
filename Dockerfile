@@ -27,6 +27,7 @@ COPY configuration/flyway.conf /usr/local/flyway-11.7.2/conf/flyway.conf
 RUN curl -sSLk -o /usr/local/bin/wp-cli https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
 ADD bin/*.sh   /usr/local/bin/
 COPY bin/mysql.sh /usr/local/bin/mysql
+COPY bin/mysqldump.sh /usr/local/bin/mysqldump
 RUN chmod +x /usr/local/bin/*
 
 ## Apache HTTPD - WebServer ##
@@ -74,7 +75,7 @@ RUN chmod a+rwX  /var/www/sql /var/www/html
 #RUN cd /usr/src/wordpress/wp-content/plugins/happy-quiz && NODE_ENV=production webpack -p --config webpack.config.js --mode production
 
 ## Wordpress Plugins ##
-RUN apt-get install -y unzip vim less \
+RUN apt-get install -y unzip rsync vim less \
  && cd /usr/src/wordpress/wp-content/plugins \
  && for plugin in `ls */.gitkeep |cut -d/ -f1`; do \
  (version=`cat ${plugin}/version.txt 2>/dev/null`; echo "Installing Wordpress Plugin ${plugin} ${version}."; curl -sSLk -o ./${plugin}.zip https://downloads.wordpress.org/plugin/${plugin}${version}.zip && unzip -qo ${plugin}.zip; rm -f ${plugin}.zip || true) || true; done;

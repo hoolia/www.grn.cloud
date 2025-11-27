@@ -69,6 +69,16 @@ export:
 	#git commit -m "`date`"
 	#git push
 
+cleanup:
+	oc -n grncloud-wordpress rsh deploy/wordpress /usr/local/bin/cleanup.sql
+
+backup: cleanup
+	POD=`oc get pod -l app=wordpress -o name` \
+	oc -n grncloud-wordpress rsync $$POD:/var/www/html/wp-content html/wp-content/
+	find ./html/ -name \*.log -exec rm -f {} \;
+	oc -n grncloud-wordpress rsh deploy/wordpress /usr/local/bin/mysqldump.sh | gzip > mysql/V9__site.sql.gz
+	#git add mysql/V9__site.sql.gz
+
 apply:
 	oc get ns $(NAMESPACE) || oc create ns $(NAMESPACE)
 	oc -n $(NAMESPACE) process --allow-missing-template-keys --ignore-unknown-parameters --param-file openshift/params/prod.ini -f openshift/templates/db.yaml |oc -n $(NAMESPACE) apply -f -

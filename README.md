@@ -9,6 +9,14 @@ oc project openshift
 oc new-build https://github.com/hoolia/wordpress.git
 ```
 
+# Manual backkup
+
+```
+cd ~/git/grn.cloud/www/
+make backup
+# oc -n grncloud-wordpress rsh deploy/wordpress mysqldump >sql/V9_latest.sql
+```
+
 # Disaster recovery
 
 Restore point-in-time dump:
