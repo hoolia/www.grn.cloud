@@ -32,3 +32,9 @@ RewriteRule ^ - [L]
 RewriteRule ^([_0-9a-zA-Z-]+/)?(wp-(content|admin|includes).*) $2 [L]
 RewriteRule ^([_0-9a-zA-Z-]+/)?(.*\.php)$ $2 [L]
 RewriteRule . index.php [L]
+
+php_value post_max_size 3G
+php_value upload_max_filesize 3G
+php_value memory_limit 2G
+php_value max_execution_time 3600
+php_value max_input_time 3600

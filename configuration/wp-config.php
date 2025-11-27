@@ -107,9 +107,11 @@ $table_prefix = getenv_docker('WORDPRESS_TABLE_PREFIX', 'wp_');
 /** Report all errors */
 @ini_set('log_errors'    , 'On');
 @ini_set('display_errors', 'Off');
-define('WP_DEBUG_LOG', true);
+@ini_set('error_log'     , '/dev/stderr');
+define('SCRIPT_DEBUG'    , !!getenv_docker('WORDPRESS_DEBUG', true) );
+define('WP_DEBUG'        , !!getenv_docker('WORDPRESS_DEBUG', true) );
+define('WP_DEBUG_LOG'    , true);
 define('WP_DEBUG_DISPLAY', false);
-define( 'WP_DEBUG', !!getenv_docker('WORDPRESS_DEBUG', true) );
 
 /** Prevent editing by Admin -> Appearance -> Editor **/
 define('DISALLOW_FILE_EDIT', false);
