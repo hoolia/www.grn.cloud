@@ -1,0 +1,56 @@
+
+---Downloaded files---
+The import files for: Home 1 to 6 were successfully downloaded!
+Initial max execution time = 480
+Files info:
+Site URL = https://grn.lakhr.com
+Data file = /home/u133895825/domains/lakhr.com/public_html/GRN/wp-content/uploads/2025/09/demo-content-import-file_2025-09-21__16-08-25.xml
+Widget file = /home/u133895825/domains/lakhr.com/public_html/GRN/wp-content/uploads/2025/09/demo-widgets-import-file_2025-09-21__16-08-25.json
+Customizer file = /home/u133895825/domains/lakhr.com/public_html/GRN/wp-content/uploads/2025/09/demo-customizer-import-file_2025-09-21__16-08-25.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Blog Widget Area : 
+
+Search - No Title - Imported
+Categories - No Title - Imported
+Tag Cloud - Popular Tags - Imported
+
+sidebar-2 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Navigation Menu - Services - Imported to Inactive
+Navigation Menu - Services - Imported to Inactive
+Navigation Menu - Services - Imported to Inactive
+
+Footer Widget 1 : 
+
+Navigation Menu - Services - Imported
+
+Footer Widget 2 : 
+
+Navigation Menu - Company - Imported
+
+Footer Widget 3 : 
+
+Navigation Menu - Solutions - Imported
+
+Footer Widget 4 : 
+
+Text - Contact Info - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+

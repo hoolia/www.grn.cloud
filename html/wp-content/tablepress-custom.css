@@ -1,0 +1,102 @@
+/* 🧭 Responsive Wrapper */
+.tablepress-responsive {
+	width: 100%;
+	overflow-x: auto; /* ✅ Horizontal scroll on small screens */
+	-webkit-overflow-scrolling: touch;
+	border-radius: 12px; /* ✅ keep rounded edges */
+	box-shadow: 0 10px 30px rgba(0,0,0,0.04);
+}
+
+.tablepress {
+	width: 100%;
+	border-spacing: 0;
+	border-collapse: separate;
+	min-width: 600px; /* ✅ prevents breaking layout on very small screens */
+	background: #ffffff;
+	color: #1a1a1a;
+	border-radius: 12px;
+}
+
+/* Header */
+.tablepress thead th {
+	background: #02753c;
+	color: #8c8c8c;
+	font-weight: 500;
+	text-align: left;
+	padding: 16px 20px;
+	font-size: 14px;
+	border-bottom: 1px solid #e8e8e8;
+	white-space: nowrap; /* ✅ keeps header text on one line */
+}
+
+/* Body Cells */
+.tablepress tbody td {
+	padding: 18px 20px;
+	border-bottom: 1px solid #f0f0f0;
+	color: #1a1a1a;
+	font-weight: 600;
+	font-size: 15px;
+	transition: color .2s ease, background-color .2s ease;
+	white-space: nowrap; /* ✅ prevents awkward wrapping */
+}
+
+/* Hover */
+.tablepress tbody tr:hover {
+	background-color: #f9fafc;
+}
+
+/* Last Column */
+.tablepress tbody td:last-child {
+	color: #1a1a1a;
+	font-weight: 700;
+	text-align: right;
+}
+
+.tablepress tbody td:last-child:hover {
+	color: #02753C;
+}
+
+.tablepress thead th:last-child {
+	text-align: right;
+}
+
+/* No border on sides */
+.tablepress td,
+.tablepress th {
+	border-left: none;
+	border-right: none;
+}
+
+/* Rounded Corners */
+.tablepress thead tr:first-child th:first-child {
+	border-top-left-radius: 12px;
+}
+
+.tablepress thead tr:first-child th:last-child {
+	border-top-right-radius: 12px;
+}
+
+.tablepress tbody tr:last-child td:first-child {
+	border-bottom-left-radius: 12px;
+}
+
+.tablepress tbody tr:last-child td:last-child {
+	border-bottom-right-radius: 12px;
+}
+
+/* 📱 Responsive */
+@media (max-width: 768px) {
+	.tablepress-responsive {
+		border-radius: 12px;
+	}
+
+	.tablepress {
+		font-size: 14px;
+		min-width: 480px; /* ✅ shrink but keep scrollable */
+	}
+
+	.tablepress thead th,
+	.tablepress tbody td {
+		padding: 12px 14px;
+	}
+}
