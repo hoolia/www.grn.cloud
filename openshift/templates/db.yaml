@@ -229,3 +229,20 @@ objects:
 #         caSecretKeyRef:
 #           name: minio-ca
 #           key: tls.crt
+
+- apiVersion: k8s.mariadb.com/v1alpha1
+  kind: PhysicalBackup
+  metadata:
+    name: mysql-backup
+  spec:
+    mariaDbRef:
+      name: mysql
+    compression: bzip2
+    maxRetention: 720h # 30 days
+    storage:
+      volumeSnapshot:
+        volumeSnapshotClassName: ocs-storagecluster-rbdplugin-snapclass
+    schedule:
+      cron: "0 * * * *"
+      suspend: false
+      immediate: true      

@@ -71,6 +71,7 @@ export:
 
 cleanup:
 	oc -n grncloud-wordpress rsh deploy/wordpress /usr/local/bin/cleanup.sql
+	oc -n grncloud-wordpress rsh deploy/wordpress bash -c "find /var/www/html \( -name \*.wpress -o -name \*.log \) -delete"
 
 backup: cleanup
 	POD=`oc get pod -l app=wordpress -o name` \

@@ -46,6 +46,8 @@ objects:
         name: ${CACHE_NAME}-login
         key: password
     memcachedPort: 11211
+    serviceSpec:
+      name: ${CACHE_NAME}-master
     resources:
       limits:
         memory: 6Gi
@@ -53,3 +55,24 @@ objects:
         cpu: 100m
         memory: 256Mi
     skipFSGroup: true
+
+- apiVersion: v1
+  kind: Service
+  metadata:
+    name: ${CACHE_NAME}
+    labels:
+      app.kubernetes.io/name: ${CACHE_NAME}
+      app.kubernetes.io/part-of: ${APP_NAME}
+  spec:
+    clusterIP: None
+    selector:
+      app.kubernetes.io/name: ${CACHE_NAME}
+    ports:
+    - name: dragonfly
+      port: 6379
+      targetPort: 6379
+      protocol: TCP
+    - name: memcached
+      port: 11211
+      targetPort: 11211
+      protocol: TCP

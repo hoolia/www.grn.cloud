@@ -155,7 +155,7 @@ objects:
                     - "X-K8S-PROBE: dummy"
                     - http://127.0.0.1:8080/health.php
                 initialDelaySeconds: 3
-                timeoutSeconds: 3
+                timeoutSeconds: 10
               livenessProbe:
                 exec:
                   command:
@@ -164,7 +164,10 @@ objects:
                     - "X-K8S-PROBE: dummy"
                     - http://127.0.0.1:8080/health.php
                 initialDelaySeconds: 360
-                timeoutSeconds: 10
+                timeoutSeconds: 30
+                failureThreshold: 3
+                periodSeconds: 30         
+                successThreshold: 1          
               envFrom:
                 - secretRef:
                     name: ${DB_NAME}-login
@@ -224,6 +227,7 @@ objects:
         cert-manager.io/issuer-name: letsencrypt
         cert-manager.io/renew-before: 24h
         haproxy.router.openshift.io/hsts_header: max-age=31536000
+        haproxy.router.openshift.io/timeout: "5m"
       labels:
         app.kubernetes.io/name: "${APP_NAME}-route"
         app.kubernetes.io/part-of: "${APP_NAME}"
@@ -254,6 +258,7 @@ objects:
         cert-manager.io/renew-before: 24h
         haproxy.router.openshift.io/rewrite-target: "https://www.${WORDPRESS_CURRENT_SITE}$1"
         haproxy.router.openshift.io/hsts_header: "max-age=31536000"
+        haproxy.router.openshift.io/timeout: "5m"
       labels:
         app.kubernetes.io/name: "${APP_NAME}-route"
         app.kubernetes.io/part-of: "${APP_NAME}"
