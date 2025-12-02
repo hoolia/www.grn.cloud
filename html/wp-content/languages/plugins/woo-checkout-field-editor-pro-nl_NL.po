@@ -1,0 +1,847 @@
+# Translation of Plugins - Checkout Field Editor (Checkout Manager) for WooCommerce - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - Checkout Field Editor (Checkout Manager) for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-10-01 11:36:46+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - Checkout Field Editor (Checkout Manager) for WooCommerce - Stable (latest release)\n"
+
+#: admin/thwcfd-landing-page.php:140
+msgid "Let's Get started"
+msgstr "Laten we beginnen"
+
+#: admin/thwcfd-landing-page.php:135
+msgid "Go with Block Checkout Editor"
+msgstr "Ga met Block Checkout Editor"
+
+#: admin/thwcfd-landing-page.php:132
+msgid "Go with Classic Checkout Editor"
+msgstr "Ga met Classic Checkout Editor"
+
+#: admin/thwcfd-landing-page.php:121
+msgid "Best for users looking for a more modern, flexible checkout design"
+msgstr "Het beste voor gebruikers die op zoek zijn naar een moderner, flexibel afrekenontwerp"
+
+#: admin/thwcfd-landing-page.php:115
+msgid "Easier to customize with block elements."
+msgstr "Eenvoudiger aan te passen met blokelementen."
+
+#: admin/thwcfd-landing-page.php:109
+msgid "Use this if you’ve transitioned to WooCommerce’s new Block-based checkout."
+msgstr "Gebruik dit als je bent overgestapt op WooCommerce's nieuwe afrekenen op basis van blokken."
+
+#: admin/thwcfd-landing-page.php:103
+msgid "Block Checkout"
+msgstr "Afrekenen blokkeren"
+
+#: admin/thwcfd-landing-page.php:90
+msgid "Best for users who prefer the classic, non-block experience."
+msgstr "Het beste voor gebruikers die de voorkeur geven aan de klassieke, niet-blok ervaring."
+
+#: admin/thwcfd-landing-page.php:84
+msgid "Compatible with older checkout layouts."
+msgstr "Compatibel met oudere lay-outs voor afrekenen."
+
+#: admin/thwcfd-landing-page.php:78
+msgid "Use this if you’re still using the traditional WooCommerce checkout page."
+msgstr "Gebruik dit als je nog steeds de traditionele WooCommerce afrekenpagina gebruikt."
+
+#: admin/thwcfd-landing-page.php:72
+msgid "Classic Checkout"
+msgstr "Klassiek afrekenen"
+
+#: admin/thwcfd-landing-page.php:61
+msgid "Which Checkout Fields should you use?"
+msgstr "Welke afrekenvelden moet je gebruiken?"
+
+#: admin/thwcfd-landing-page.php:60
+msgid "We support both Classic and Block Checkout. Choose the one you're using"
+msgstr "We ondersteunen zowel Classic als Block Checkout. Kies degene die je gebruikt"
+
+#: admin/thwcfd-landing-page.php:54
+msgid "Read More!"
+msgstr "Meer lezen!"
+
+#: admin/thwcfd-landing-page.php:48
+msgid "Learn more about both editors to make the most out of your checkout"
+msgstr "Lees verder over beide editors om het meeste uit je afrekenen te halen"
+
+#: admin/thwcfd-landing-page.php:44
+msgid "Get Started"
+msgstr "Aan de slag"
+
+#: admin/thwcfd-landing-page.php:40
+msgid "We’re excited to have you on board! Now, you can easily customize your WooCommerce checkout using both the Block Checkout Editor and the Classic Checkout Field Editor. Enjoy complete flexibility and control! "
+msgstr "We zijn blij dat je erbij bent! Nu kun je je WooCommerce afrekenen eenvoudig aanpassen met zowel de Block Checkout Editor als de Classic Checkout Field Editor. Geniet van volledige flexibiliteit en controle! "
+
+#: admin/thwcfd-landing-page.php:38
+msgid "Welcome to Checkout Field Editor!"
+msgstr "Welkom bij afrekenen field editor!"
+
+#: admin/thwcfd-landing-page.php:20
+msgid "Checkout field editor Landing page"
+msgstr "Afrekenveld editor landingspagina"
+
+#. translators: %s Field label.
+#: block/class-thwcfd-block.php:84 block/class-thwcfd-block.php:184
+msgid "%s (optional)"
+msgstr "%s (optioneel)"
+
+#: admin/class-thwcfd-admin.php:144
+msgid " Support team"
+msgstr " Ondersteuningsteam"
+
+#: admin/class-thwcfd-admin.php:141
+msgid ""
+"Our Checkout Field Editor now supports WooCommerce Checkout Blocks! Currently, a few field types are available, and more will be added soon. \n"
+"\t\t\t\t\t\t\tIf you're using Block Checkout, make sure to switch to the Block Checkout Fields tab, otherwise, your changes won’t be reflected. Have questions or need help? \n"
+"\t\t\t\t\t\t\tReach out to our  %s ."
+msgstr ""
+"Onze afrekenen field editor ondersteunt nu WooCommerce afrekenen blokken! Op dit moment zijn er een paar veldtypen beschikbaar en binnenkort zullen er meer worden toegevoegd. \n"
+"\t\t\t\t\t\t\tAls je blok afrekenen gebruikt, zorg er dan voor dat je overschakelt naar de tab blok afrekenen velden, anders worden je wijzigingen niet weergegeven. Heb je vragen of hulp nodig? \n"
+"\t\t\t\t\t\t\tNeem contact op met onze  %s."
+
+#: includes/utils/class-thwcfd-utils-block.php:162
+#: includes/utils/class-thwcfd-utils-block.php:421
+msgid "Postal code (optional)"
+msgstr "Postcode (optioneel)"
+
+#: includes/utils/class-thwcfd-utils-block.php:161
+#: includes/utils/class-thwcfd-utils-block.php:420
+msgid "Postal code"
+msgstr "Postcode"
+
+#: includes/utils/class-thwcfd-utils-block.php:149
+#: includes/utils/class-thwcfd-utils-block.php:433
+msgid "Phone (optional)"
+msgstr "Telefoon (optioneel)"
+
+#: includes/utils/class-thwcfd-utils-block.php:136
+#: includes/utils/class-thwcfd-utils-block.php:409
+msgid "State/County (optional)"
+msgstr "Staat (optioneel)"
+
+#: includes/utils/class-thwcfd-utils-block.php:135
+#: includes/utils/class-thwcfd-utils-block.php:408
+msgid "State/County"
+msgstr "Staat/provincie"
+
+#: includes/utils/class-thwcfd-utils-block.php:124
+#: includes/utils/class-thwcfd-utils-block.php:397
+msgid "City (optional)"
+msgstr "Stad (optioneel)"
+
+#: includes/utils/class-thwcfd-utils-block.php:123
+#: includes/utils/class-thwcfd-utils-block.php:396
+msgid "City"
+msgstr "Stad"
+
+#: includes/utils/class-thwcfd-utils-block.php:112
+#: includes/utils/class-thwcfd-utils-block.php:385
+msgid "Apartment, suite, etc. (optional)"
+msgstr "Appartement, suite, enz. (optioneel)"
+
+#: includes/utils/class-thwcfd-utils-block.php:111
+#: includes/utils/class-thwcfd-utils-block.php:384
+msgid "Apartment, suite, etc."
+msgstr "Appartement, suite, enz."
+
+#: includes/utils/class-thwcfd-utils-block.php:100
+#: includes/utils/class-thwcfd-utils-block.php:373
+msgid "Address (optional)"
+msgstr "Adres (optioneel)"
+
+#: includes/utils/class-thwcfd-utils-block.php:99
+#: includes/utils/class-thwcfd-utils-block.php:372
+msgid "Address"
+msgstr "Adres"
+
+#: includes/utils/class-thwcfd-utils-block.php:88
+#: includes/utils/class-thwcfd-utils-block.php:361
+msgid "Company (optional)"
+msgstr "Bedrijf (optioneel)"
+
+#: includes/utils/class-thwcfd-utils-block.php:87
+#: includes/utils/class-thwcfd-utils-block.php:360
+msgid "Company"
+msgstr "Bedrijf"
+
+#: includes/utils/class-thwcfd-utils-block.php:75
+#: includes/utils/class-thwcfd-utils-block.php:349
+msgid "Last name (optional)"
+msgstr "Achternaam (optioneel)"
+
+#: includes/utils/class-thwcfd-utils-block.php:74
+#: includes/utils/class-thwcfd-utils-block.php:348
+msgid "Last name"
+msgstr "Achternaam"
+
+#: includes/utils/class-thwcfd-utils-block.php:63
+#: includes/utils/class-thwcfd-utils-block.php:337
+msgid "First name (optional)"
+msgstr "Voornaam (optioneel)"
+
+#: includes/utils/class-thwcfd-utils-block.php:62
+#: includes/utils/class-thwcfd-utils-block.php:336
+msgid "First name"
+msgstr "Voornaam"
+
+#: includes/utils/class-thwcfd-utils-block.php:50
+#: includes/utils/class-thwcfd-utils-block.php:326
+msgid "Country/Region (optional)"
+msgstr "Land/regio (optioneel)"
+
+#: includes/utils/class-thwcfd-utils-block.php:49
+#: includes/utils/class-thwcfd-utils-block.php:325
+msgid "Country/Region"
+msgstr "Land/regio"
+
+#: includes/utils/class-thwcfd-utils-block.php:33
+#: includes/utils/class-thwcfd-utils-block.php:313
+msgid "Email address (optional)"
+msgstr "E-mailadres (optioneel)"
+
+#: includes/utils/class-thwcfd-utils-block.php:32
+#: includes/utils/class-thwcfd-utils-block.php:312
+msgid "Email address"
+msgstr "E-mailadres"
+
+#: block/class-thwcfd-block.php:284
+msgid "The provided %s is not a valid postcode."
+msgstr "De opgegeven %s is geen geldige postcode."
+
+#: block/class-thwcfd-block.php:271
+msgid "The provided %s is not a valid phone number."
+msgstr "Het opgegeven %s is geen geldig telefoonnummer."
+
+#: block/class-thwcfd-block.php:258
+msgid "The provided %s is not a valid email address."
+msgstr "Het opgegeven %s is geen geldig e-mailadres."
+
+#: block/class-thwcfd-block-order-data.php:414
+#: block/class-thwcfd-block-order-data.php:542
+msgid "No"
+msgstr "Nee"
+
+#. Translators: %s is the section ID.
+#: block/class-thwcfd-block-extend-store-endpoint.php:80
+msgid "Additional checkout fields for section %s"
+msgstr "Extra afrekenvelden voor sectie %s"
+
+#: admin/class-thwcfd-admin-settings-block-fields.php:592
+msgid "Edit Section"
+msgstr "Sectie bewerken"
+
+#: admin/class-thwcfd-admin-settings-block-fields.php:233
+msgid "No checkout fields found. Click on Add Field button to create new fields."
+msgstr "Geen afrekenvelden gevonden. Klik op de knop veld toevoegen om nieuwe velden aan te maken."
+
+#: admin/class-thwcfd-admin-settings-block-fields.php:222
+msgid "Duplicate Field"
+msgstr "Veld dupliceren"
+
+#: admin/class-thwcfd-admin-settings-block-fields.php:103
+msgid "Actions"
+msgstr "Acties"
+
+#: admin/class-thwcfd-admin-settings-block-fields.php:80
+msgid "Are you sure you want to reset to the default fields? All your changes will be deleted, and all sections will be restored to their default fields."
+msgstr "Weet je zeker dat je wil resetten naar de standaardvelden? Al je wijzigingen worden verwijderd en alle secties worden teruggezet naar de standaardvelden."
+
+#: admin/class-thwcfd-admin-form-block-field.php:382
+msgid "Value"
+msgstr "Waarde"
+
+#: admin/class-thwcfd-admin.php:88
+msgid "Review us"
+msgstr "Beoordeel ons"
+
+#: admin/class-thwcfd-admin.php:87
+msgid "Join Community"
+msgstr "Word lid van community"
+
+#: admin/class-thwcfd-admin-settings-block-fields.php:186
+#: block/class-thwcfd-block-order-data.php:414
+#: block/class-thwcfd-block-order-data.php:542
+#: admin/assets/js/thwcfd-admin.js:1281
+msgid "Yes"
+msgstr "Ja"
+
+#: admin/class-thwcfd-admin-settings-block-fields.php:215
+#: admin/assets/js/thwcfd-admin.js:607
+msgid "Edit Field"
+msgstr "Bewerk veld"
+
+#: public/class-thwcfd-public-checkout.php:767
+msgid "optional"
+msgstr "optioneel"
+
+#: public/class-thwcfd-public-checkout.php:764
+msgid "required"
+msgstr "vereist"
+
+#: public/class-thwcfd-public-checkout.php:547
+msgid "<strong>%s</strong> is not a valid url."
+msgstr "<strong>%s</strong> is geen geldige URL."
+
+#: public/class-thwcfd-public-checkout.php:543
+msgid "<strong>%s</strong> is not a valid number."
+msgstr "<strong>%s</strong> is geen geldig nummer."
+
+#: includes/class-thwcfd.php:535
+msgid "Kindly tell us your reason, so that we can improve"
+msgstr "Vertel ons je reden, zodat we het kunnen verbeteren"
+
+#: includes/class-thwcfd.php:533
+msgid "Not mentioned here"
+msgstr "Niet genoemd hier"
+
+#: includes/class-thwcfd.php:526
+msgid "It’s a temporary deactivation - I’m troubleshooting an issue"
+msgstr "Het is een tijdelijke deactivering - Ik onderzoek een probleem"
+
+#: includes/class-thwcfd.php:514 includes/class-thwcfd.php:528
+msgid "Could you please mention the plugin?"
+msgstr "Zou je de plugin kunnen noemen?"
+
+#: includes/class-thwcfd.php:512
+msgid "I found a better Plugin"
+msgstr "Ik heb een betere plugin gevonden"
+
+#: includes/class-thwcfd.php:507
+msgid "How can we improve your experience?"
+msgstr "Hoe kunnen we je ervaring verbeteren?"
+
+#: includes/class-thwcfd.php:505
+msgid "It was hard to use"
+msgstr "Het was moeilijk om te gebruiken"
+
+#: includes/class-thwcfd.php:500
+msgid "Specify the issue"
+msgstr "Specificeer het probleem"
+
+#: includes/class-thwcfd.php:498
+msgid "Found an error in the plugin/ Plugin was not working"
+msgstr "Een fout gevonden in de plugin/ plugin werkte niet"
+
+#: includes/class-thwcfd.php:493
+msgid "Type in the feature"
+msgstr "Typ de functie in"
+
+#: includes/class-thwcfd.php:491
+msgid "A specific feature is missing"
+msgstr "Een specifieke functie ontbreekt"
+
+#: includes/class-thwcfd.php:484
+msgid "Upgraded to premium."
+msgstr "Geüpgraded naar premium."
+
+#: includes/class-thwcfd.php:414
+msgid "Upgraded"
+msgstr "Geüpgraded"
+
+#: includes/class-thwcfd.php:410
+msgid "leave a review"
+msgstr "laat een beoordeling achter"
+
+#: includes/class-thwcfd.php:408
+msgid "Deactivate and "
+msgstr "Deactiveren en "
+
+#: includes/class-thwcfd.php:187
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: includes/class-thwcfd.php:186
+msgid "Submit and Deactivate"
+msgstr "Verzenden en deactiveren"
+
+#: includes/class-thwcfd.php:180
+msgid "Skip & Deactivate"
+msgstr "Overslaan & deactiveren"
+
+#: includes/class-thwcfd.php:176
+msgid "Privacy Policy"
+msgstr "Privacybeleid"
+
+#: includes/class-thwcfd.php:176
+msgid "This form is only for getting your valuable feedback. We do not collect your personal data. To know more read our "
+msgstr "Dit formulier is alleen bedoeld om je waardevolle feedback te krijgen. We verzamelen niet je persoonsgegevens. Om meer te weten lees onze "
+
+#: includes/class-thwcfd.php:157
+msgid "If you have a moment, please let us know why you want to deactivate this plugin"
+msgstr "Als je een momentje hebt, laat ons dan weten waarom je deze plugin wil deactiveren"
+
+#: includes/class-thwcfd.php:153 includes/class-thwcfd.php:184
+msgid "Get Support"
+msgstr "Krijg ondersteuning"
+
+#: includes/class-thwcfd.php:148
+msgid "Quick Feedback"
+msgstr "Snelle feedback"
+
+#: admin/class-thwcfd-admin.php:72
+msgid "Get Pro"
+msgstr "Verkrijg Pro"
+
+#: admin/class-thwcfd-admin.php:56
+msgid "WooCommerce Checkout Field Editor"
+msgstr "WooCommerce Checkout Field Editor"
+
+#: admin/class-thwcfd-admin-settings-themehigh-plugins.php:267
+msgid "Install now"
+msgstr "Installeer nu"
+
+#: admin/class-thwcfd-admin-settings-themehigh-plugins.php:246
+msgid "Activate"
+msgstr "Activeer"
+
+#: admin/class-thwcfd-admin-settings-themehigh-plugins.php:233
+msgid "Activated"
+msgstr "Geactiveerd"
+
+#: admin/class-thwcfd-admin-settings-themehigh-plugins.php:184
+msgid "Other Plugins"
+msgstr "Andere plugins"
+
+#: admin/class-thwcfd-admin-settings-themehigh-plugins.php:146
+msgid "Compatible Plugins"
+msgstr "Compatibele plugins"
+
+#: admin/class-thwcfd-admin-settings-general.php:113
+msgid "Are you sure you want to reset to default fields? all your changes will be deleted."
+msgstr "Weet je zeker dat je terug wil naar de standaardvelden? Al je wijzigingen worden verwijderd."
+
+#: admin/class-thwcfd-admin-settings-block-fields.php:373
+#: admin/class-thwcfd-admin-settings-general.php:77
+msgid "Checkout fields successfully reset"
+msgstr "Afreken velden succesvol gereset"
+
+#: admin/class-thwcfd-admin-settings-general.php:41
+msgid "Additional Fields"
+msgstr "Extra velden"
+
+#: admin/class-thwcfd-admin-settings-general.php:40
+msgid "Shipping Fields"
+msgstr "Verzendvelden"
+
+#: admin/class-thwcfd-admin-settings-general.php:39
+msgid "Billing Fields"
+msgstr "Factuurvelden"
+
+#: admin/class-thwcfd-admin-settings-general.php:36
+#: admin/class-thwcfd-admin-settings.php:29
+msgid "Other Free Plugins"
+msgstr "Andere gratis plugins"
+
+#: admin/class-thwcfd-admin-settings-general.php:35
+#: admin/class-thwcfd-admin-settings.php:28
+msgid "Premium Features"
+msgstr "Premium functies"
+
+#: admin/class-thwcfd-admin-settings-general.php:34
+#: admin/class-thwcfd-admin-settings.php:27
+msgid "Advanced Settings"
+msgstr "Geavanceerde instellingen"
+
+#: admin/class-thwcfd-admin-settings-advanced.php:296
+msgid "Your Settings Updated."
+msgstr "Je instellingen geüpdatet."
+
+#: admin/class-thwcfd-admin-settings-advanced.php:265
+msgid "The entered import settings data is invalid. Please try again with valid data."
+msgstr "De ingevoerde import instellingen gegevens zijn ongeldig. Probeer het opnieuw met geldige gegevens."
+
+#: admin/class-thwcfd-admin-settings-advanced.php:240
+msgid "Import Settings"
+msgstr "Import instellingen"
+
+#: admin/class-thwcfd-admin-settings-advanced.php:223
+msgid "You can transfer the saved settings data between different installs by copying the text inside the text box. To import data from another install, replace the data in the text box with the one from another install and click \"Import Settings\"."
+msgstr "Je kunt de opgeslagen instellingen overzetten tussen verschillende installaties door de tekst in de tekstbox te kopiëren. Om gegevens van een andere installatie te importeren, vervang je de gegevens in de tekstbox door die van een andere installatie en klik je op \"Instellingen importeren\"."
+
+#: admin/class-thwcfd-admin-settings-advanced.php:222
+msgid "Plugin Settings Data"
+msgstr "Plugin instellingsgegevens"
+
+#: admin/class-thwcfd-admin-settings-advanced.php:220
+msgid "Backup and Import Settings"
+msgstr "Back-up en import instellingen"
+
+#: admin/class-thwcfd-admin-settings-advanced.php:170
+msgid "Are you sure you want to reset to default settings? all your changes will be deleted."
+msgstr "Weet je zeker dat je de standaardinstellingen wil terugzetten? Al je wijzigingen worden verwijderd."
+
+#: admin/class-thwcfd-admin-settings-advanced.php:99
+msgid "Settings successfully reset."
+msgstr "Instellingen met succes teruggezet."
+
+#: admin/class-thwcfd-admin-settings-advanced.php:76
+msgid "Enable required validation override for address fields."
+msgstr "Vereiste validatie overschrijving voor adresvelden inschakelen."
+
+#: admin/class-thwcfd-admin-settings-advanced.php:73
+msgid "Enable priority override for address fields."
+msgstr "Prioriteit overschrijving voor adresvelden inschakelen."
+
+#: admin/class-thwcfd-admin-settings-advanced.php:70
+msgid "Enable class override for address fields."
+msgstr "Schakel klasse overschrijving in voor adresvelden."
+
+#: admin/class-thwcfd-admin-settings-advanced.php:67
+msgid "Enable placeholder override for address fields."
+msgstr "Plaatshouder overschrijven voor adresvelden inschakelen."
+
+#: admin/class-thwcfd-admin-settings-advanced.php:64
+msgid "Enable label override for address fields."
+msgstr "Label overschrijving voor adresvelden inschakelen."
+
+#: admin/class-thwcfd-admin-form-field.php:686
+#: admin/assets/js/thwcfd-admin.js:961
+msgid "Remove option"
+msgstr "Optie verwijderen"
+
+#: admin/class-thwcfd-admin-form-field.php:686
+#: admin/assets/js/thwcfd-admin.js:960
+msgid "Add new option"
+msgstr "Nieuwe optie toevoegen"
+
+#: admin/class-thwcfd-admin-form-field.php:684
+#: admin/assets/js/thwcfd-admin.js:958
+msgid "Option Text"
+msgstr "Optie tekst"
+
+#: admin/class-thwcfd-admin-form-field.php:683
+#: admin/assets/js/thwcfd-admin.js:957
+msgid "Option Value"
+msgstr "Optie waarde"
+
+#: admin/class-thwcfd-admin-form-field.php:220
+msgid "Display Settings"
+msgstr "Weergave instellingen"
+
+#: admin/class-thwcfd-admin-form-field.php:206
+msgid "Basic Details"
+msgstr "Basis details"
+
+#: admin/class-thwcfd-admin-form-field.php:192
+msgid "Back"
+msgstr "Terug"
+
+#: admin/class-thwcfd-admin-form-field.php:189
+msgid "Next"
+msgstr "Volgende"
+
+#: admin/class-thwcfd-admin-form-field.php:186
+msgid "Save & Close"
+msgstr "Opslaan & sluiten"
+
+#: admin/class-thwcfd-admin-form-field.php:154
+msgid "Basic Info"
+msgstr "Basis informatie"
+
+#: admin/class-thwcfd-admin-form-field.php:151
+msgid "Save Field"
+msgstr "Veld opslaan"
+
+#: admin/class-thwcfd-admin-form-field.php:105
+msgid " Checked by default"
+msgstr " Standaard aangevinkt"
+
+#: admin/class-thwcfd-admin-form-field.php:99
+msgid "Validation"
+msgstr "Validatie"
+
+#: admin/class-thwcfd-admin-form-field.php:95
+msgid "Default Value"
+msgstr "Standaardwaarde"
+
+#: admin/class-thwcfd-admin-form-field.php:78
+msgid "Half width right"
+msgstr "Halve breedte rechts"
+
+#: admin/class-thwcfd-admin-form-field.php:77
+msgid "Half width left"
+msgstr "Halve breedte links"
+
+#: admin/class-thwcfd-admin-form-field.php:76
+msgid "Full width"
+msgstr "Volledige breedte"
+
+#: admin/class-thwcfd-admin-form-field.php:59
+msgid "Paragraph"
+msgstr "Paragraaf"
+
+#: admin/class-thwcfd-admin-form-field.php:58
+#: admin/class-thwcfd-admin-form-field.php:72
+msgid "URL"
+msgstr "URL"
+
+#: admin/class-thwcfd-admin-form-field.php:57
+msgid "Week"
+msgstr "Week"
+
+#: admin/class-thwcfd-admin-form-field.php:56
+msgid "Month"
+msgstr "Maand"
+
+#: admin/class-thwcfd-admin-form-field.php:55
+msgid "Time"
+msgstr "Tijd"
+
+#: admin/class-thwcfd-admin-form-field.php:54
+msgid "Date"
+msgstr "Datum"
+
+#: admin/class-thwcfd-admin-form-field.php:53
+msgid "Datetime local"
+msgstr "Datumtijd lokaal"
+
+#: admin/class-thwcfd-admin-form-field.php:52
+msgid "Heading"
+msgstr "Koptekst"
+
+#: admin/class-thwcfd-admin-form-field.php:51
+msgid "Checkbox Group"
+msgstr "Selectievakje groep"
+
+#: admin/class-thwcfd-admin-form-field.php:50
+msgid "Checkbox"
+msgstr "Selectievakje"
+
+#: admin/class-thwcfd-admin-form-field.php:49
+msgid "Multiselect"
+msgstr "Multiselect"
+
+#: admin/class-thwcfd-admin-form-field.php:42
+msgid "Hidden"
+msgstr "Verborgen"
+
+#: admin/class-thwcfd-admin-form-field.php:41
+#: admin/class-thwcfd-admin-form-field.php:71
+msgid "Number"
+msgstr "Nummer"
+
+#: admin/class-thwcfd-admin-form-field.php:47
+msgid "Radio"
+msgstr "Radio"
+
+#: admin/class-thwcfd-admin-form-field.php:46
+msgid "Textarea"
+msgstr "Tekstgebied"
+
+#: admin/class-thwcfd-admin-form-field.php:43
+msgid "Password"
+msgstr "Wachtwoord"
+
+#: admin/class-thwcfd-admin-settings-block-fields.php:322
+#: admin/class-thwcfd-admin-settings-general.php:279
+msgid "Your changes were not saved due to no fields found."
+msgstr "Je wijzigingen zijn niet opgeslagen omdat er geen velden zijn gevonden."
+
+#: admin/class-thwcfd-admin-settings-general.php:264
+#: admin/class-thwcfd-admin-settings-general.php:326
+msgid "Your changes were not saved due to an error."
+msgstr "Je wijzigingen zijn niet opgeslagen vanwege een fout."
+
+#. Author of the plugin
+#: checkout-form-designer.php
+msgid "ThemeHigh"
+msgstr "ThemeHigh"
+
+#: admin/class-thwcfd-admin-settings-advanced.php:137
+#: admin/class-thwcfd-admin-settings-advanced.php:299
+#: admin/class-thwcfd-admin-settings-general.php:261
+#: admin/class-thwcfd-admin-settings-general.php:323
+msgid "Your changes were not saved due to an error (or you made none!)."
+msgstr "Je wijzigingen zijn niet opgeslagen vanwege een fout (of je hebt er geen gemaakt!)."
+
+#: admin/class-thwcfd-admin-settings-advanced.php:135
+#: admin/class-thwcfd-admin-settings-general.php:259
+#: admin/class-thwcfd-admin-settings-general.php:321
+msgid "Your changes were saved."
+msgstr "Je wijzigingen zijn opgeslagen."
+
+#: admin/class-thwcfd-admin-settings-block-fields.php:79
+#: admin/class-thwcfd-admin-settings-general.php:112
+msgid "Reset to default fields"
+msgstr "Reset naar standaardvelden"
+
+#: admin/class-thwcfd-admin-settings-block-fields.php:78
+#: admin/class-thwcfd-admin-settings-general.php:111
+msgid "Save changes"
+msgstr "Wijzigingen opslaan"
+
+#: admin/class-thwcfd-admin-settings-block-fields.php:75
+#: admin/class-thwcfd-admin-settings-general.php:108
+msgid "Disable"
+msgstr "Uitschakelen"
+
+#: admin/class-thwcfd-admin-settings-block-fields.php:74
+#: admin/class-thwcfd-admin-settings-general.php:107
+msgid "Enable"
+msgstr "Inschakelen"
+
+#: admin/class-thwcfd-admin-settings-block-fields.php:73
+#: admin/class-thwcfd-admin-settings-general.php:106
+msgid "Remove"
+msgstr "Verwijderen"
+
+#: admin/class-thwcfd-admin-settings-block-fields.php:72
+#: admin/class-thwcfd-admin-settings-general.php:105
+msgid "Add field"
+msgstr "Veld toevoegen"
+
+#: admin/class-thwcfd-admin-settings-block-fields.php:65
+#: admin/class-thwcfd-admin-settings-general.php:98
+#: admin/class-thwcfd-admin-settings-general.php:194
+msgid "Edit"
+msgstr "Bewerk"
+
+#: admin/class-thwcfd-admin-settings-general.php:32
+#: admin/class-thwcfd-admin-settings.php:25
+msgid "Checkout Fields"
+msgstr "Afrekenvelden"
+
+#: admin/class-thwcfd-admin-form-field.php:110
+msgid "Display in Order Detail Pages"
+msgstr "Toon in besteldetail pagina's"
+
+#: admin/class-thwcfd-admin-form-field.php:109
+msgid "Display in Emails"
+msgstr "Toon in e-mails"
+
+#: admin/class-thwcfd-admin-form-field.php:107
+#: admin/class-thwcfd-admin-settings-block-fields.php:64
+#: admin/class-thwcfd-admin-settings-block-fields.php:102
+#: admin/class-thwcfd-admin-settings-general.php:97
+msgid "Enabled"
+msgstr "Ingeschakeld"
+
+#: admin/class-thwcfd-admin-form-field.php:104
+#: admin/class-thwcfd-admin-settings-block-fields.php:63
+#: admin/class-thwcfd-admin-settings-block-fields.php:101
+#: admin/class-thwcfd-admin-settings-general.php:96
+msgid "Required"
+msgstr "Verplicht"
+
+#: admin/class-thwcfd-admin-form-field.php:70
+msgid "State"
+msgstr "Provincie"
+
+#: admin/class-thwcfd-admin-form-field.php:69
+msgid "Postcode"
+msgstr "Postcode"
+
+#: admin/class-thwcfd-admin-form-field.php:45
+#: admin/class-thwcfd-admin-form-field.php:68
+#: includes/utils/class-thwcfd-utils-block.php:148
+#: includes/utils/class-thwcfd-utils-block.php:432
+msgid "Phone"
+msgstr "Telefoon"
+
+#: admin/class-thwcfd-admin-form-field.php:44
+#: admin/class-thwcfd-admin-form-field.php:67
+msgid "Email"
+msgstr "E-mail"
+
+#: admin/class-thwcfd-admin-form-field.php:99
+msgid "Select validations"
+msgstr "Selecteer validaties"
+
+#: admin/class-thwcfd-admin-settings-block-fields.php:62
+#: admin/class-thwcfd-admin-settings-block-fields.php:100
+#: admin/class-thwcfd-admin-settings-general.php:95
+msgid "Validations"
+msgstr "Validaties"
+
+#: admin/class-thwcfd-admin-form-field.php:98
+msgid "Separate classes with comma"
+msgstr "Scheid klassen met komma"
+
+#: admin/class-thwcfd-admin-form-field.php:98
+msgid "Class"
+msgstr "Klasse"
+
+#: admin/class-thwcfd-admin-form-block-field.php:471
+#: admin/class-thwcfd-admin-form-field.php:675
+msgid "Options"
+msgstr "Opties"
+
+#: admin/class-thwcfd-admin-form-field.php:96
+#: admin/class-thwcfd-admin-settings-block-fields.php:61
+#: admin/class-thwcfd-admin-settings-block-fields.php:99
+#: admin/class-thwcfd-admin-settings-general.php:94
+msgid "Placeholder"
+msgstr "Plaatshouder"
+
+#: admin/class-thwcfd-admin-form-field.php:94
+#: admin/class-thwcfd-admin-settings-block-fields.php:60
+#: admin/class-thwcfd-admin-settings-block-fields.php:98
+#: admin/class-thwcfd-admin-settings-general.php:93
+msgid "Label"
+msgstr "Label"
+
+#: admin/class-thwcfd-admin-form-field.php:93
+#: admin/class-thwcfd-admin-settings-block-fields.php:58
+#: admin/class-thwcfd-admin-settings-block-fields.php:96
+#: admin/class-thwcfd-admin-settings-general.php:91
+msgid "Name"
+msgstr "Naam"
+
+#: admin/class-thwcfd-admin-form-field.php:91
+#: admin/class-thwcfd-admin-settings-block-fields.php:59
+#: admin/class-thwcfd-admin-settings-block-fields.php:97
+#: admin/class-thwcfd-admin-settings-general.php:92
+msgid "Type"
+msgstr "Type"
+
+#: admin/class-thwcfd-admin-form-field.php:48
+msgid "Select"
+msgstr "Selecteer"
+
+#: admin/class-thwcfd-admin-form-field.php:40
+msgid "Text"
+msgstr "Tekst"
+
+#: includes/utils/class-thwcfd-utils.php:155
+msgctxt "placeholder"
+msgid "Notes about your order, e.g. special notes for delivery."
+msgstr "Opmerkingen over je bestelling, bijv. speciale opmerkingen voor levering."
+
+#: includes/utils/class-thwcfd-utils.php:154
+msgid "Order Notes"
+msgstr "Bestellingsnotities"
+
+#: admin/class-thwcfd-admin.php:70
+msgid "Settings"
+msgstr "Instellingen"
+
+#: admin/class-thwcfd-admin.php:64
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: admin/class-thwcfd-admin.php:56 admin/class-thwcfd-admin.php:96
+msgid "Checkout Form"
+msgstr "Afrekenformulier"
+
+#. Description of the plugin
+#: checkout-form-designer.php
+msgid "Customize WooCommerce checkout fields(Add, Edit, Delete and re-arrange fields)."
+msgstr "WooCommerce afreken velden aanpassen (velden toevoegen, bewerken, verwijderen en opnieuw indelen)."
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: checkout-form-designer.php
+msgid "https://www.themehigh.com"
+msgstr "https://www.themehigh.com"
+
+#. Plugin Name of the plugin
+#: checkout-form-designer.php
+msgid "Checkout Field Editor for WooCommerce"
+msgstr "Checkout Field Editor for WooCommerce"

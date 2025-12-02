@@ -1,0 +1,768 @@
+# Translation of Plugins - Kirki Customizer Framework - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - Kirki Customizer Framework - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-10-30 13:08:27+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - Kirki Customizer Framework - Stable (latest release)\n"
+
+#: pro-src/packages/kirki-pro-tabs/edd/EDD_SL_Plugin_Updater.php:484
+msgid "Error"
+msgstr "Fout"
+
+#: pro-src/packages/kirki-pro-tabs/edd/EDD_SL_Plugin_Updater.php:484
+msgid "You do not have permission to install plugin updates"
+msgstr "Je hebt geen toestemming om updates van plugins te installeren"
+
+#: pro-src/packages/kirki-pro-tabs/edd/EDD_SL_Plugin_Updater.php:252
+msgid "Update now."
+msgstr "Update nu."
+
+#: pro-src/packages/kirki-pro-tabs/edd/EDD_SL_Plugin_Updater.php:241
+msgid "%1$sView version %2$s details%3$s or %4$supdate now%5$s."
+msgstr "%1$sBekijk versie %2$s details%3$s of %4$supdate nu%5$s."
+
+#. translators: 1. opening anchor tag, do not translate 2. the new plugin
+#. version 3. closing anchor tag, do not translate.
+#: pro-src/packages/kirki-pro-tabs/edd/EDD_SL_Plugin_Updater.php:233
+msgid "%1$sView version %2$s details%3$s."
+msgstr "%1$sBekijk versie %2$s details%3$s."
+
+#: pro-src/packages/kirki-pro-tabs/edd/EDD_SL_Plugin_Updater.php:228
+msgid "Contact your network administrator to install the update."
+msgstr "Neem contact op met je netwerkbeheerder om de update te installeren."
+
+#. translators: the plugin name.
+#: pro-src/packages/kirki-pro-tabs/edd/EDD_SL_Plugin_Updater.php:222
+msgid "There is a new version of %1$s available."
+msgstr "Er is een nieuwe versie van %1$s beschikbaar."
+
+#: kirki-packages/settings/templates/settings-template.php:38
+msgid "Settings"
+msgstr "﻿Instellingen"
+
+#: kirki-packages/settings/templates/settings-template.php:26
+msgid "The #1 Customizer Toolkit for WordPress Theme Developers."
+msgstr "De #1 Customizer Toolkit voor WordPress thema ontwikkelaars."
+
+#: kirki-packages/settings/templates/metaboxes/documentation.php:34
+msgid "The following article provides a detailed explanation of the Clear Font Cache option in Kirki."
+msgstr "Het volgende artikel geeft een gedetailleerde uitleg van de optie Clear Font Cache in Kirki."
+
+#: kirki-packages/settings/templates/metaboxes/documentation.php:31
+msgid "For more information, please refer to your theme's documentation."
+msgstr "Raadpleeg voor meer informatie de documentatie van je thema."
+
+#: kirki-packages/settings/templates/metaboxes/documentation.php:27
+#: kirki-packages/settings/templates/metaboxes/documentation.php:37
+msgid "Documentation"
+msgstr "Documentatie"
+
+#: kirki-packages/settings/templates/metaboxes/documentation.php:20
+msgid "It provides advanced customization options within the WordPress Customizer, allowing you to easily modify the appearance of your site."
+msgstr "Het biedt geavanceerde aanpassingsopties binnen de WordPress Customizer, waarmee je eenvoudig de weergave van je site kunt wijzigen."
+
+#: kirki-packages/settings/templates/metaboxes/documentation.php:17
+msgid "Kirki is a key component of the WordPress theme you have installed."
+msgstr "Kirki is een belangrijk onderdeel van het WordPress thema dat je hebt geïnstalleerd."
+
+#: kirki-packages/settings/templates/metaboxes/documentation.php:13
+msgid "Why do I see this?"
+msgstr "Waarom zie ik dit?"
+
+#: kirki-packages/settings/templates/metaboxes/clear-font-cache.php:26
+msgid "Clear Cache"
+msgstr "Cache wissen"
+
+#: kirki-packages/settings/templates/metaboxes/clear-font-cache.php:19
+msgid "This is safe to do on production sites."
+msgstr "Dit is veilig om te doen op productie sites."
+
+#: kirki-packages/settings/templates/metaboxes/clear-font-cache.php:16
+msgid "If Google Fonts selected in the Customizer are not displayed correctly, please try clearing the font cache."
+msgstr "Als Google Fonts die zijn geselecteerd in de Customizer niet correct worden weergegeven, probeer dan de cache van de lettertypen te wissen."
+
+#: kirki-packages/settings/templates/metaboxes/clear-font-cache.php:15
+msgid "In order to achieve GDPR-compliance, Kirki stores Google Fonts locally on your server."
+msgstr "Om te voldoen aan de AVG/GDPR, slaat Kirki Google Fonts lokaal op je server op."
+
+#: kirki-packages/settings/templates/metaboxes/clear-font-cache.php:12
+msgid "Clear Font Cache"
+msgstr "De cache van het lettertype wissen"
+
+#: kirki-packages/settings/src/SetupSettings.php:55
+msgid "Kirki"
+msgstr "Kirki"
+
+#: kirki-packages/settings/src/Notice.php:144
+msgid "Discount notice has been dismissed"
+msgstr "Korting bericht is genegeerd"
+
+#: kirki-packages/settings/src/Notice.php:136
+msgid "You don't have capability to run this action"
+msgstr "Je hebt niet de rechten om deze actie uit te voeren"
+
+#: kirki-packages/settings/src/Notice.php:132
+msgid "Invalid nonce"
+msgstr "Ongeldige nonce"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: kirki.php
+msgid "https://themeum.com"
+msgstr "https://themeum.com"
+
+#. Author of the plugin
+#: kirki.php
+msgid "Themeum"
+msgstr "Themeum"
+
+#. translators: %s is the limit of selection number.
+#: kirki-packages/control-react-select/src/Control/ReactSelect.php:169
+msgid "You can only select %s items"
+msgstr "Je kan alleen %s items selecteren"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:850
+msgid "Defaults"
+msgstr "Standaarden"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:387
+msgid "Wavy"
+msgstr "Golvend"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:386
+msgid "Solid"
+msgstr "Solide"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:328
+msgid "Font Color"
+msgstr "Lettertype kleur"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:301
+msgid "Font Variant"
+msgstr "Lettertype variant"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:199
+msgid "900 Italic"
+msgstr "900 cursief"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:195
+msgid "900"
+msgstr "900"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:191
+msgid "800 Italic"
+msgstr "800 cursief"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:187
+msgid "800"
+msgstr "800"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:175
+msgid "600 Italic"
+msgstr "600 cursief"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:171
+msgid "600"
+msgstr "600"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:167
+msgid "500 Italic"
+msgstr "500 cursief"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:163
+msgid "500"
+msgstr "500"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:159
+msgid "300 Italic"
+msgstr "300 cursief"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:155
+msgid "300"
+msgstr "300"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:151
+msgid "200 Italic"
+msgstr "200 cursief"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:147
+msgid "200"
+msgstr "200"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:143
+msgid "100 Italic"
+msgstr "100 cursief"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:139
+msgid "100"
+msgstr "100"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:124
+#: kirki-packages/field-typography/src/Field/Typography.php:183
+msgid "700 Italic"
+msgstr "700 cursief"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:120
+#: kirki-packages/field-typography/src/Field/Typography.php:179
+msgid "700"
+msgstr "700"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:116
+#: kirki-packages/field-typography/src/Field/Typography.php:135
+msgid "Italic"
+msgstr "Cursief"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:112
+#: kirki-packages/field-typography/src/Field/Typography.php:131
+msgid "Regular"
+msgstr "Normaal"
+
+#: kirki-packages/control-react-select/src/Control/ReactSelect.php:162
+msgid "Select..."
+msgstr "Selecteren..."
+
+#: kirki-packages/control-dashicons/src/Control/Dashicons.php:116
+msgid "Miscelaneous"
+msgstr "Overige"
+
+#: kirki-packages/control-dashicons/src/Control/Dashicons.php:115
+msgid "Notifications"
+msgstr "Meldingen"
+
+#: kirki-packages/control-dashicons/src/Control/Dashicons.php:114
+msgid "Widgets"
+msgstr "Widgets"
+
+#: kirki-packages/control-dashicons/src/Control/Dashicons.php:113
+msgid "Taxonomies"
+msgstr "Taxonomieën"
+
+#: kirki-packages/control-dashicons/src/Control/Dashicons.php:112
+msgid "Products"
+msgstr "Producten"
+
+#: kirki-packages/control-dashicons/src/Control/Dashicons.php:110
+msgid "Social"
+msgstr "Sociaal"
+
+#: kirki-packages/control-dashicons/src/Control/Dashicons.php:109
+msgid "Sorting"
+msgstr "Sortering"
+
+#: kirki-packages/control-dashicons/src/Control/Dashicons.php:108
+msgid "Posts"
+msgstr "Berichten"
+
+#: kirki-packages/control-dashicons/src/Control/Dashicons.php:106
+msgid "Image Editing"
+msgstr "Afbeelding bewerken"
+
+#: kirki-packages/control-dashicons/src/Control/Dashicons.php:105
+msgid "Media"
+msgstr "Media"
+
+#: kirki-packages/control-dashicons/src/Control/Dashicons.php:104
+msgid "Post Formats"
+msgstr "Berichtformaten"
+
+#: kirki-packages/control-dashicons/src/Control/Dashicons.php:103
+msgid "Welcome Screen"
+msgstr "Welkom scherm"
+
+#: kirki-packages/control-dashicons/src/Control/Dashicons.php:102
+msgid "Admin Menu"
+msgstr "Beheerder menu"
+
+#: kirki-packages/compatibility/src/Init.php:261
+msgid "Don't show this again"
+msgstr "Dit niet meer weergeven"
+
+#: kirki-packages/compatibility/src/Init.php:260
+msgid "Install Plugin"
+msgstr "Installeer plugin"
+
+#: kirki-packages/compatibility/src/Init.php:257
+msgid "Your theme uses a Font Awesome field for icons. To avoid issues with missing icons on your frontend we recommend you install the official Font Awesome plugin."
+msgstr "Je thema gebruikt een Font Awesome veld voor pictogrammen. Om problemen met ontbrekende pictogrammen op je front-end te voorkomen, raden we je aan de officiële Font Awesome plugin te installeren."
+
+#. Description of the plugin
+#: kirki.php
+msgid "The Ultimate WordPress Customizer Framework"
+msgstr "Het ultieme WordPress Customizer Framework"
+
+#. Plugin Name of the plugin
+#: kirki.php kirki-packages/settings/src/SetupSettings.php:54
+#: kirki-packages/settings/templates/settings-template.php:23
+msgid "Kirki Customizer Framework"
+msgstr "Kirki Customizer Framework"
+
+#: kirki-packages/control-image/src/Field/Image.php:117
+msgid "Choose image"
+msgstr "Kies afbeelding"
+
+#: kirki-packages/control-image/src/Control/Image.php:82
+#: kirki-packages/control-image/src/Field/Image.php:115
+#: kirki-packages/control-image/dist/control.js:1
+#: kirki-packages/control-image/src/control.js:100
+#: kirki-packages/control-image/dist/control.js:100
+msgid "No image selected"
+msgstr "Geen afbeelding geselecteerd"
+
+#: kirki-packages/control-image/src/Field/Image.php:112
+msgid "Change image"
+msgstr "Afbeelding wijzigen"
+
+#: kirki-packages/control-image/src/Control/Image.php:89
+#: kirki-packages/control-image/src/Field/Image.php:111
+#: kirki-packages/control-image/src/Field/Image.php:116
+msgid "Select image"
+msgstr "Afbeelding selecteren"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:384
+msgid "Line Through"
+msgstr "Doorstrepen"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:385
+msgid "Overline"
+msgstr "Lijn boven tekst"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:383
+msgid "Underline"
+msgstr "Onderstrepen"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:379
+msgid "Text Decoration"
+msgstr "Tekstdecoratie"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:882
+msgid "Google Fonts"
+msgstr "Google Fonts"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:877
+msgid "Standard Fonts"
+msgstr "Standaard lettertypen"
+
+#: kirki-packages/compatibility/src/deprecated/functions.php:20
+msgid "%1$s or %2$s"
+msgstr "%1$s of %2$s"
+
+#: kirki-packages/compatibility/src/Kirki.php:191
+msgid "Kirki fields should not be added on customize_register. Please add them directly, or on init."
+msgstr "Kirki velden mogen niet worden toegevoegd aan customize_register. Voeg ze rechtstreeks toe, of bij init."
+
+#: kirki-packages/compatibility/src/Init.php:206
+msgid "We detected you're using Kirki\\Compatibility\\Init::get_variables(). Please use \\Kirki\\Util\\Util::get_variables() instead."
+msgstr "We hebben gedetecteerd dat je Kirki\\Compatibility\\Init::get_variables() gebruikt. Gebruik in plaats daarvan \\Kirki\\Util\\Util::get_variables()."
+
+#. translators: The field ID where the error occurs.
+#: kirki-packages/compatibility/src/Field.php:520
+#: kirki-packages/compatibility/src/Field.php:531
+#: kirki-packages/module-css/src/CSS.php:133
+#: kirki-packages/module-css/src/CSS.php:144
+#: kirki-packages/module-postmessage/src/Postmessage.php:69
+msgid "\"output\" invalid format in field %s. The \"output\" argument should be defined as an array of arrays."
+msgstr "\"output\" ongeldig formaat in veld %s. Het argument \"output\" moet worden gedefinieerd als een array van arrays."
+
+#. translators: %1$s represents the field ID where the error occurs.
+#: kirki-packages/compatibility/src/Field.php:394
+msgid "\"partial_refresh\" invalid entry in field %s"
+msgstr "\"partial_refresh\" ongeldige invoer in veld %s"
+
+#. translators: %1$s represents the field ID where the error occurs. %2$s is
+#. the URL in the documentation site.
+#: kirki-packages/compatibility/src/Field.php:278
+msgid "Config not defined for field %1$s - See %2$s for details on how to properly add fields."
+msgstr "Config niet gedefinieerd voor veld %1$s - Zie %2$s voor details over het correct toevoegen van velden."
+
+#. translators: %s represents the field ID where the error occurs.
+#: kirki-packages/compatibility/src/Field.php:267
+msgid "Typo found in field %s - setting instead of settings."
+msgstr "Typfout gevonden in veld %s - instelling in plaats van instellingen."
+
+#: kirki-packages/control-image/src/Control/Image.php:87
+#: kirki-packages/control-image/src/Field/Image.php:113
+#: kirki-packages/field-typography/src/Field/Typography.php:852
+msgid "Default"
+msgstr "Standaard"
+
+#. translators: The title.
+#: kirki-packages/module-sections/src/Section_Types/Nested.php:65
+msgid "Customizing &#9656; %s"
+msgstr "Aan het aanpassen &#9656; %s"
+
+#: kirki-packages/module-sections/src/Section_Types/Nested.php:62
+msgid "Customizing"
+msgstr "Aanpassen"
+
+#: kirki-packages/control-checkbox/src/Control/Checkbox_Switch.php:80
+msgid "Off"
+msgstr "Uit"
+
+#: kirki-packages/control-checkbox/src/Control/Checkbox_Switch.php:79
+msgid "On"
+msgstr "Aan"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:427
+msgid "Margin Bottom"
+msgstr "Marge bodem"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:422
+msgid "Margin Top"
+msgstr "Marge top"
+
+#. translators: %s represents the label of the row.
+#: kirki-packages/control-repeater/src/Control/Repeater.php:104
+msgid "Add new %s"
+msgstr "Nieuwe %s toevoegen"
+
+#: kirki-packages/field-dimensions/src/Dimensions.php:72
+msgid "Width"
+msgstr "Breedte"
+
+#: kirki-packages/field-dimensions/src/Dimensions.php:64
+msgid "Word Spacing"
+msgstr "Woordafstand"
+
+#: kirki-packages/field-background/src/Background.php:196
+msgid "Auto"
+msgstr "Auto"
+
+#: upgrade-notifications.php:30
+msgid "Important Upgrade Notice:"
+msgstr "Belangrijk upgrade bericht:"
+
+#: kirki-packages/control-repeater/src/Control/Repeater.php:475
+#: kirki-packages/control-repeater/src/Control/Repeater.php:480
+msgid "No File Selected"
+msgstr "Geen bestand geselecteerd"
+
+#: kirki-packages/control-repeater/src/Control/Repeater.php:486
+#: kirki-packages/control-repeater/src/Control/Repeater.php:488
+msgid "Change File"
+msgstr "Bestand wijzigen"
+
+#: kirki-packages/control-repeater/src/Control/Repeater.php:486
+#: kirki-packages/control-repeater/src/Control/Repeater.php:490
+msgid "Add File"
+msgstr "Bestand toevoegen"
+
+#: kirki-packages/control-repeater/src/Control/Repeater.php:95
+msgid "row"
+msgstr "rij"
+
+#: kirki-packages/control-repeater/src/Control/Repeater.php:139
+msgid "Select a Page"
+msgstr "Selecteer een pagina"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:350
+msgid "Initial"
+msgstr "Eerste"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:365
+msgid "Lowercase"
+msgstr "Kleine letters"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:364
+msgid "Uppercase"
+msgstr "Hoofdletter"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:363
+msgid "Capitalize"
+msgstr "Hoofdlettergebruik"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:362
+#: kirki-packages/field-typography/src/Field/Typography.php:382
+msgid "None"
+msgstr "Niet"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:359
+msgid "Text Transform"
+msgstr "Tekst Transformatie"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:347
+msgid "Text Align"
+msgstr "Tekstuitlijning"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:354
+msgid "Justify"
+msgstr "Positioneren"
+
+#: kirki-packages/field-dimensions/src/Dimensions.php:69
+#: kirki-packages/field-typography/src/Field/Typography.php:352
+msgid "Center"
+msgstr "Gecenterd"
+
+#. translators: %s represents the number of rows we're limiting the repeater to
+#. allow.
+#: kirki-packages/control-repeater/src/Control/Repeater.php:275
+msgid "Limit: %s rows"
+msgstr "Limiet: %s rijen"
+
+#: kirki-packages/control-dimension/src/Control/Dimension.php:67
+#: kirki-packages/field-dimensions/src/Dimensions.php:74
+msgid "Invalid Value"
+msgstr "Ongeldige waarde"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:184
+msgid "Ultra-Bold 900 Italic"
+msgstr "Ultra vet 900 cursief"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:182
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:183
+msgid "Ultra-Bold 900"
+msgstr "Ultra vet 900"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:181
+msgid "Extra-Bold 800 Italic"
+msgstr "Extra vet 800 cursief"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:179
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:180
+msgid "Extra-Bold 800"
+msgstr "Extra vet 800"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:178
+msgid "Bold 700 Italic"
+msgstr "Vet 700 cursief"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:177
+msgid "Bold 700"
+msgstr "Vet 700"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:176
+msgid "Semi-Bold 600 Italic"
+msgstr "Halfvet 600 cursief"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:174
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:175
+msgid "Semi-Bold 600"
+msgstr "Halfvet 600"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:173
+msgid "Medium 500 Italic"
+msgstr "Medium 500 cursief"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:172
+msgid "Medium 500"
+msgstr "Medium 500"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:171
+msgid "Normal 400 Italic"
+msgstr "Normaal 400 cursief"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:169
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:170
+msgid "Normal 400"
+msgstr "Normal 400"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:168
+msgid "Book 300 Italic"
+msgstr "Book 300 cursief"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:167
+msgid "Book 300"
+msgstr "Book 300"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:166
+msgid "Light 200 Italic"
+msgstr "Licht 200 cursief"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:165
+msgid "Light 200"
+msgstr "Licht 200"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:164
+msgid "Ultra-Light 100 Italic"
+msgstr "Ultralicht 100 cursief"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:162
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:163
+msgid "Ultra-Light 100"
+msgstr "Ultralicht 100"
+
+#: kirki-packages/field-dimensions/src/Dimensions.php:71
+msgid "Spacing"
+msgstr "Spacing"
+
+#: kirki-packages/field-dimensions/src/Dimensions.php:73
+msgid "Height"
+msgstr "Hoogte"
+
+#: kirki-packages/field-dimensions/src/Dimensions.php:70
+msgid "Size"
+msgstr "Grootte"
+
+#: kirki-packages/field-dimensions/src/Dimensions.php:62
+msgid "Font Style"
+msgstr "Lettertype stijl"
+
+#: kirki-packages/control-repeater/src/Control/Repeater.php:443
+#: kirki-packages/control-repeater/src/Control/Repeater.php:448
+msgid "No Image Selected"
+msgstr "Geen afbeelding geselecteerd"
+
+#: kirki-packages/control-image/src/Control/Image.php:85
+#: kirki-packages/control-image/src/Field/Image.php:114
+#: kirki-packages/control-repeater/src/Control/Repeater.php:453
+#: kirki-packages/control-repeater/src/Control/Repeater.php:485
+#: kirki-packages/control-repeater/src/Control/Repeater.php:510
+msgid "Remove"
+msgstr "Verwijderen"
+
+#: kirki-packages/control-repeater/src/Control/Repeater.php:454
+#: kirki-packages/control-repeater/src/Control/Repeater.php:456
+msgid "Change Image"
+msgstr "Wijzig afbeelding"
+
+#: kirki-packages/control-repeater/src/Control/Repeater.php:454
+#: kirki-packages/control-repeater/src/Control/Repeater.php:458
+msgid "Add Image"
+msgstr "Afbeelding toevoegen"
+
+#: kirki-packages/field-dimensions/src/Dimensions.php:68
+#: kirki-packages/field-typography/src/Field/Typography.php:353
+msgid "Right"
+msgstr "Rechts"
+
+#: kirki-packages/field-dimensions/src/Dimensions.php:67
+#: kirki-packages/field-typography/src/Field/Typography.php:351
+msgid "Left"
+msgstr "Links"
+
+#: kirki-packages/field-dimensions/src/Dimensions.php:66
+msgid "Bottom"
+msgstr "Bodem"
+
+#: kirki-packages/field-dimensions/src/Dimensions.php:65
+msgid "Top"
+msgstr "Boven"
+
+#: kirki-packages/field-dimensions/src/Dimensions.php:63
+#: kirki-packages/field-typography/src/Field/Typography.php:407
+msgid "Letter Spacing"
+msgstr "Letterspatiëring"
+
+#: kirki-packages/field-dimensions/src/Dimensions.php:61
+#: kirki-packages/field-typography/src/Field/Typography.php:402
+msgid "Line Height"
+msgstr "Lijnhoogte"
+
+#: kirki-packages/field-dimensions/src/Dimensions.php:59
+#: kirki-packages/field-typography/src/Field/Typography.php:323
+msgid "Font Size"
+msgstr "Lettertype grootte"
+
+#: kirki-packages/field-dimensions/src/Dimensions.php:60
+msgid "Font Weight"
+msgstr "Lettertype dikte"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:274
+msgid "Font Family"
+msgstr "Lettertype familie"
+
+#: kirki-packages/field-background/src/Background.php:152
+msgid "Background Position"
+msgstr "Achtergrondpositie"
+
+#: kirki-packages/field-background/src/Background.php:161
+#: kirki-packages/field-dimensions/src/Dimensions.php:58
+msgid "Center Bottom"
+msgstr "Midden onder"
+
+#: kirki-packages/field-background/src/Background.php:160
+#: kirki-packages/field-dimensions/src/Dimensions.php:57
+msgid "Center Center"
+msgstr "Midden gecentreerd"
+
+#: kirki-packages/field-background/src/Background.php:159
+#: kirki-packages/field-dimensions/src/Dimensions.php:56
+msgid "Center Top"
+msgstr "Midden boven"
+
+#: kirki-packages/field-background/src/Background.php:164
+#: kirki-packages/field-dimensions/src/Dimensions.php:55
+msgid "Right Bottom"
+msgstr "Rechtsonder"
+
+#: kirki-packages/field-background/src/Background.php:163
+#: kirki-packages/field-dimensions/src/Dimensions.php:54
+msgid "Right Center"
+msgstr "Rechts midden"
+
+#: kirki-packages/field-background/src/Background.php:162
+#: kirki-packages/field-dimensions/src/Dimensions.php:53
+msgid "Right Top"
+msgstr "Rechts boven"
+
+#: kirki-packages/field-background/src/Background.php:158
+#: kirki-packages/field-dimensions/src/Dimensions.php:52
+msgid "Left Bottom"
+msgstr "Linksonder"
+
+#: kirki-packages/field-background/src/Background.php:157
+#: kirki-packages/field-dimensions/src/Dimensions.php:51
+msgid "Left Center"
+msgstr "Links midden"
+
+#: kirki-packages/field-background/src/Background.php:156
+#: kirki-packages/field-dimensions/src/Dimensions.php:50
+msgid "Left Top"
+msgstr "Linksboven"
+
+#: kirki-packages/field-background/src/Background.php:222
+msgid "Background Attachment"
+msgstr "Achtergrondbijlage"
+
+#: kirki-packages/field-background/src/Background.php:227
+msgid "Scroll"
+msgstr "Scroll"
+
+#: kirki-packages/field-background/src/Background.php:228
+msgid "Fixed"
+msgstr "Gemaakt"
+
+#: kirki-packages/field-background/src/Background.php:190
+msgid "Background Size"
+msgstr "Achtergrondgrootte"
+
+#: kirki-packages/field-background/src/Background.php:195
+msgid "Contain"
+msgstr "Bevatten"
+
+#: kirki-packages/field-background/src/Background.php:194
+msgid "Cover"
+msgstr "Omslagafbeelding"
+
+#: kirki-packages/field-background/src/Background.php:119
+msgid "Background Repeat"
+msgstr "Achtergrond herhaling"
+
+#: kirki-packages/field-background/src/Background.php:126
+msgid "Repeat Vertically"
+msgstr "Verticaal herhalen"
+
+#: kirki-packages/field-background/src/Background.php:125
+msgid "Repeat Horizontally"
+msgstr "Horizontaal herhalen"
+
+#: kirki-packages/field-background/src/Background.php:124
+msgid "Repeat All"
+msgstr "Herhaal alles"
+
+#: kirki-packages/field-background/src/Background.php:123
+msgid "No Repeat"
+msgstr "Geen herhaling"
+
+#: kirki-packages/field-background/src/Background.php:103
+msgid "Background Image"
+msgstr "Achtergrond afbeelding"
+
+#: kirki-packages/field-background/src/Background.php:84
+msgid "Background Color"
+msgstr "Achtergrondkleur"
